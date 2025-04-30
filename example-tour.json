@@ -1,0 +1,77 @@
+﻿{
+  "default": {
+    "firstScene": "enterance",
+    "sceneFadeDuration": 2000,
+    "autoLoad": true
+  },
+  "hfov": 200,
+  "minHfov": 100,
+  "scenes": {
+    "room": {
+      "title": "Room",
+      "panorama": "./IMG_9441.JPG",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": -60,
+          "type": "scene",
+          "text": "Back",
+          "sceneId": "enterance"
+        }
+      ]
+    },
+    "proomToilet": {
+      "title": "Toilet",
+      "panorama": "./IMG_9446.JPG",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": -160,
+          "type": "scene",
+          "text": "Back",
+          "sceneId": "enterance"
+        }
+      ]
+    },
+    "proom": {
+      "title": "Room",
+      "panorama": "./IMG_9444.JPG",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
+          "type": "scene",
+          "text": "Toilet",
+          "sceneId": "proomToilet"
+        },
+        {
+          "pitch": 0,
+          "yaw": 200,
+          "type": "scene",
+          "text": "Back",
+          "sceneId": "enterance"
+        }
+      ]
+    },
+    "enterance": {
+      "title": "Enterance",
+      "panorama": "./IMG_9442.JPG",
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 150,
+          "type": "scene",
+          "text": "Room",
+          "sceneId": "room"
+        },
+        {
+          "pitch": 0,
+          "yaw": 250,
+          "type": "scene",
+          "text": "Patient Room",
+          "sceneId": "proom"
+        }
+      ]
+    }
+  }
+}
