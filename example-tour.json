@@ -7,42 +7,76 @@
   "hfov": 200,
   "minHfov": 100,
   "scenes": {
-    "room": {
-      "title": "Room",
-      "panorama": "./IMG_9441.JPG",
+    "enterance": {
+      "title": "Enterance",
+      "type": "cubemap",
+      "yaw": 190,
+      "cubeMap": [
+        "./images/enterance/pz.jpg",
+        "./images/enterance/px.jpg",
+        "./images/enterance/nz.jpg",
+        "./images/enterance/nx.jpg",
+        "./images/enterance/py.jpg",
+        "./images/enterance/ny.jpg"
+      ],
       "hotSpots": [
         {
           "pitch": 0,
-          "yaw": -60,
+          "yaw": 330,
+          "type": "scene",
+          "text": "Bystander Room",
+          "sceneId": "bystanderRoom"
+        },
+        {
+          "pitch": 0,
+          "yaw": 80,
+          "type": "scene",
+          "text": "Patient Room",
+          "sceneId": "patientRoom"
+        }
+      ]
+    },
+    "bystanderRoom": {
+      "title": "Bystander Room",
+      "yaw": 180,
+      "type": "cubemap",
+      "cubeMap": [
+        "./images/bystanderRoom/pz.jpg",
+        "./images/bystanderRoom/px.jpg",
+        "./images/bystanderRoom/nz.jpg",
+        "./images/bystanderRoom/nx.jpg",
+        "./images/bystanderRoom/py.jpg",
+        "./images/bystanderRoom/ny.jpg"
+      ],
+      "hotSpots": [
+        {
+          "pitch": 0,
+          "yaw": 0,
           "type": "scene",
           "text": "Back",
           "sceneId": "enterance"
         }
       ]
     },
-    "proomToilet": {
-      "title": "Toilet",
-      "panorama": "./IMG_9446.JPG",
-      "hotSpots": [
-        {
-          "pitch": 0,
-          "yaw": -160,
-          "type": "scene",
-          "text": "Back",
-          "sceneId": "enterance"
-        }
-      ]
-    },
-    "proom": {
-      "title": "Room",
-      "panorama": "./IMG_9444.JPG",
+    "patientRoom": {
+      "title": "Patient Room",
+      "yaw": 0,
+      "type": "cubemap",
+      "cubeMap": [
+        "./images/patientRoom/pz.jpg",
+        "./images/patientRoom/px.jpg",
+        "./images/patientRoom/nz.jpg",
+        "./images/patientRoom/nx.jpg",
+        "./images/patientRoom/py.jpg",
+        "./images/patientRoom/ny.jpg"
+      ],
       "hotSpots": [
         {
           "pitch": 0,
           "yaw": 0,
           "type": "scene",
           "text": "Toilet",
-          "sceneId": "proomToilet"
+          "sceneId": "patientRoomToilet"
         },
         {
           "pitch": 0,
@@ -53,23 +87,25 @@
         }
       ]
     },
-    "enterance": {
-      "title": "Enterance",
-      "panorama": "./IMG_9442.JPG",
+    "patientRoomToilet": {
+      "title": "Toilet",
+      "yaw": 80,
+      "type": "cubemap",
+      "cubeMap": [
+        "./images/patientRoomToilet/pz.jpg",
+        "./images/patientRoomToilet/px.jpg",
+        "./images/patientRoomToilet/nz.jpg",
+        "./images/patientRoomToilet/nx.jpg",
+        "./images/patientRoomToilet/py.jpg",
+        "./images/patientRoomToilet/ny.jpg"
+      ],
       "hotSpots": [
         {
           "pitch": 0,
-          "yaw": 150,
+          "yaw": -160,
           "type": "scene",
-          "text": "Room",
-          "sceneId": "room"
-        },
-        {
-          "pitch": 0,
-          "yaw": 250,
-          "type": "scene",
-          "text": "Patient Room",
-          "sceneId": "proom"
+          "text": "Back",
+          "sceneId": "patientRoom"
         }
       ]
     }
