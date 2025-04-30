@@ -4,8 +4,6 @@
     "sceneFadeDuration": 2000,
     "autoLoad": true
   },
-  "hfov": 200,
-  "minHfov": 100,
   "scenes": {
     "enterance": {
       "title": "Enterance",
