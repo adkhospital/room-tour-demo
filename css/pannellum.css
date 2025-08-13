@@ -380,25 +380,18 @@
   background-color: white;
   background-position: center !important;
   border-radius: 100% !important;
-  width: 40px !important;
-  height: 40px !important;
+  width: 40px;
+  height: 40px;
   border: #fff solid 5px;
 }
 
-.pnlm-hotspot {
-  height: 26px;
-  width: 26px;
-  border-radius: 13px;
-}
 .pnlm-hotspot:hover {
   background-color: rgba(255, 255, 255, 0.8);
 }
 .pnlm-hotspot.pnlm-info {
   background-position: 0 -104px;
 }
-.pnlm-hotspot.pnlm-scene {
-  background-position: 0 -130px;
-}
+
 div.pnlm-tooltip span {
   visibility: hidden;
   position: absolute;
@@ -487,4 +480,12 @@ div.pnlm-tooltip:hover span:after {
 
 .pnlm-pointer {
   cursor: pointer;
+}
+/* Mobile size */
+@media only screen and (max-width: 768px) {
+  .pnlm-hotspot {
+    width: 35px;
+    height: 35px;
+    border: #fff solid 5px; /* proportionally bigger border */
+  }
 }
