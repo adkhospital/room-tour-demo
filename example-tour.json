@@ -128,7 +128,6 @@
       "title": "Executive Room Bed",
       "type": "multires",
       "hfov": 100.0,
-      "yaw": 0,
       "multiRes": {
         "shtHash": "5w~qofWBRjofRjWBayj]j[ayWBj?oLayj]j[WBazj[j[WBofj[WCfkayj[j@fRazfQfQayj[j[",
         "path": "./images/ExecutiveRoom708-4/%l/%s%y_%x",
@@ -159,6 +158,13 @@
           "type": "scene",
           "text": "Move",
           "sceneId": "Kitchen"
+        },
+        {
+          "pitch": -10,
+          "yaw": 190,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Toilet"
         }
       ]
     },
