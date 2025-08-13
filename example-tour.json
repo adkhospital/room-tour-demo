@@ -1,109 +1,201 @@
 ﻿{
   "default": {
-    "firstScene": "enterance",
+    "firstScene": "Enternace",
     "sceneFadeDuration": 2000,
     "autoLoad": true
   },
   "scenes": {
-    "enterance": {
-      "title": "Enterance",
-      "type": "cubemap",
-      "yaw": 190,
-      "cubeMap": [
-        "./images/enterance/pz.jpg",
-        "./images/enterance/px.jpg",
-        "./images/enterance/nz.jpg",
-        "./images/enterance/nx.jpg",
-        "./images/enterance/py.jpg",
-        "./images/enterance/ny.jpg"
-      ],
+    "Enternace": {
+      "title": "Executive Room",
+      "type": "multires",
+      "hfov": 100.0,
+      "multiRes": {
+        "shtHash": "5x~qbcaebGWCbIWBoLaekCj[j@azj[axj@bHkCfkfkWBozayWBbHf5WBf6WVWVWBf6a#j@ofkB",
+        "path": "./images/ExecutiveRoom708-1/%l/%s%y_%x",
+        "fallbackPath": "./images/ExecutiveRoom708-1/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2600
+      },
       "hotSpots": [
         {
-          "pitch": 0,
-          "yaw": 330,
+          "pitch": -10,
+          "yaw": 40,
           "type": "scene",
-          "text": "Bystander Room",
-          "sceneId": "bystanderRoom"
+          "text": "Move",
+          "sceneId": "SofaView"
         },
         {
-          "pitch": 0,
-          "yaw": 80,
-          "type": "scene",
-          "text": "Patient Room",
-          "sceneId": "patientRoom"
-        }
-      ]
-    },
-    "bystanderRoom": {
-      "title": "Bystander Room",
-      "yaw": 180,
-      "type": "cubemap",
-      "cubeMap": [
-        "./images/bystanderRoom/pz.jpg",
-        "./images/bystanderRoom/px.jpg",
-        "./images/bystanderRoom/nz.jpg",
-        "./images/bystanderRoom/nx.jpg",
-        "./images/bystanderRoom/py.jpg",
-        "./images/bystanderRoom/ny.jpg"
-      ],
-      "hotSpots": [
-        {
-          "pitch": 0,
-          "yaw": 0,
-          "type": "scene",
-          "text": "Back",
-          "sceneId": "enterance"
-        }
-      ]
-    },
-    "patientRoom": {
-      "title": "Patient Room",
-      "yaw": 0,
-      "type": "cubemap",
-      "cubeMap": [
-        "./images/patientRoom/pz.jpg",
-        "./images/patientRoom/px.jpg",
-        "./images/patientRoom/nz.jpg",
-        "./images/patientRoom/nx.jpg",
-        "./images/patientRoom/py.jpg",
-        "./images/patientRoom/ny.jpg"
-      ],
-      "hotSpots": [
-        {
-          "pitch": 0,
-          "yaw": 0,
-          "type": "scene",
-          "text": "Toilet",
-          "sceneId": "patientRoomToilet"
-        },
-        {
-          "pitch": 0,
+          "pitch": -10,
           "yaw": 200,
           "type": "scene",
-          "text": "Back",
-          "sceneId": "enterance"
+          "text": "Move",
+          "sceneId": "Kitchen"
+        },
+        {
+          "pitch": -40,
+          "yaw": -70,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Bedview"
+        },
+        {
+          "pitch": -10,
+          "yaw": -120,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Toilet"
         }
       ]
     },
-    "patientRoomToilet": {
-      "title": "Toilet",
-      "yaw": 80,
-      "type": "cubemap",
-      "cubeMap": [
-        "./images/patientRoomToilet/pz.jpg",
-        "./images/patientRoomToilet/px.jpg",
-        "./images/patientRoomToilet/nz.jpg",
-        "./images/patientRoomToilet/nx.jpg",
-        "./images/patientRoomToilet/py.jpg",
-        "./images/patientRoomToilet/ny.jpg"
-      ],
+    "SofaView": {
+      "title": "Executive Room",
+      "type": "multires",
+      "hfov": 100.0,
+      "multiRes": {
+        "shtHash": "5x~qt6axRkWXj?jaoLa#jsjZbHoej[aeWqj[WXj[ayayfPR.Rjs.jtWBWCa{j]f6jYaxjtkBWB",
+        "path": "./images/ExecutiveRoom708-2/%l/%s%y_%x",
+        "fallbackPath": "./images/ExecutiveRoom708-2/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2600
+      },
       "hotSpots": [
         {
-          "pitch": 0,
-          "yaw": -160,
+          "pitch": -10,
+          "yaw": 200,
           "type": "scene",
-          "text": "Back",
-          "sceneId": "patientRoom"
+          "text": "Move",
+          "sceneId": "Enternace"
+        },
+        {
+          "pitch": -10,
+          "yaw": 240,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Kitchen"
+        },
+        {
+          "pitch": -10,
+          "yaw": -90,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Toilet"
+        }
+      ]
+    },
+    "Kitchen": {
+      "title": "Executive Room Kitchen",
+      "type": "multires",
+      "hfov": 100.0,
+      "yaw": 0,
+      "multiRes": {
+        "shtHash": "5w~qofWBRjofRjWBayj]j[ayWBj?oLayj]j[WBazj[j[WBofj[WCfkayj[j@fRazfQfQayj[j[",
+        "path": "./images/ExecutiveRoom708-3/%l/%s%y_%x",
+        "fallbackPath": "./images/ExecutiveRoom708-3/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2600
+      },
+      "hotSpots": [
+        {
+          "pitch": -10,
+          "yaw": 15,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Enternace"
+        },
+        {
+          "pitch": -10,
+          "yaw": 5,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "SofaView"
+        },
+        {
+          "pitch": -13,
+          "yaw": -21,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Bedview"
+        }
+      ]
+    },
+    "Bedview": {
+      "title": "Executive Room Bed",
+      "type": "multires",
+      "hfov": 100.0,
+      "yaw": 0,
+      "multiRes": {
+        "shtHash": "5w~qofWBRjofRjWBayj]j[ayWBj?oLayj]j[WBazj[j[WBofj[WCfkayj[j@fRazfQfQayj[j[",
+        "path": "./images/ExecutiveRoom708-4/%l/%s%y_%x",
+        "fallbackPath": "./images/ExecutiveRoom708-4/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2600
+      },
+      "hotSpots": [
+        {
+          "pitch": -10,
+          "yaw": 60,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Enternace"
+        },
+        {
+          "pitch": -20,
+          "yaw": 25,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "SofaView"
+        },
+        {
+          "pitch": -10,
+          "yaw": 140,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Kitchen"
+        }
+      ]
+    },
+    "Toilet": {
+      "title": "Executive Room Toilet",
+      "type": "multires",
+      "hfov": 100.0,
+      "multiRes": {
+        "shtHash": "5s~qf,WVa}WCWVWBbbf5f+jZaea#WBt7axj@j[fkj?WBnhoMRjn%j[ofa{WBfkWXbHj@aya{az",
+        "path": "./images/ExecutiveRoom708-5/%l/%s%y_%x",
+        "fallbackPath": "./images/ExecutiveRoom708-5/fallback/%s",
+        "extension": "jpg",
+        "tileResolution": 512,
+        "maxLevel": 4,
+        "cubeResolution": 2600
+      },
+      "hotSpots": [
+        {
+          "pitch": -10,
+          "yaw": 180,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Enternace"
+        },
+        {
+          "pitch": -12,
+          "yaw": 157,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "SofaView"
+        },
+        {
+          "pitch": -20,
+          "yaw": 145,
+          "type": "scene",
+          "text": "Move",
+          "sceneId": "Bedview"
         }
       ]
     }
