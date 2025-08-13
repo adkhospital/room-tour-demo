@@ -2027,8 +2027,8 @@ window.pannellum = (function (window, document, undefined) {
         div.appendChild(span);
         span.style.width = span.scrollWidth - 20 + "px";
         span.style.marginLeft =
-          -(span.scrollWidth - div.offsetWidth) / 2 + "px";
-        span.style.marginTop = -span.scrollHeight - 12 + "px";
+          -(span.scrollWidth - div.offsetWidth) / 2 - 5 + "px";
+        span.style.marginTop = -span.scrollHeight - 18 + "px";
       }
       if (hs.clickHandlerFunc) {
         div.addEventListener(

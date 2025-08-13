@@ -23,28 +23,28 @@
           "pitch": -10,
           "yaw": 40,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "SofaView"
         },
         {
           "pitch": -10,
           "yaw": 200,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Kitchen"
         },
         {
           "pitch": -40,
           "yaw": -70,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Bedview"
         },
         {
           "pitch": -10,
           "yaw": -120,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Toilet"
         }
       ]
@@ -67,21 +67,21 @@
           "pitch": -10,
           "yaw": 200,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Enternace"
         },
         {
           "pitch": -10,
           "yaw": 240,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Kitchen"
         },
         {
           "pitch": -10,
           "yaw": -90,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Toilet"
         }
       ]
@@ -105,21 +105,21 @@
           "pitch": -10,
           "yaw": 15,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Enternace"
         },
         {
           "pitch": -10,
           "yaw": 5,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "SofaView"
         },
         {
           "pitch": -13,
           "yaw": -21,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Bedview"
         }
       ]
@@ -142,28 +142,28 @@
           "pitch": -10,
           "yaw": 60,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Enternace"
         },
         {
           "pitch": -20,
           "yaw": 25,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "SofaView"
         },
         {
           "pitch": -10,
           "yaw": 140,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Kitchen"
         },
         {
           "pitch": -10,
           "yaw": 190,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Toilet"
         }
       ]
@@ -186,21 +186,21 @@
           "pitch": -10,
           "yaw": 180,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Enternace"
         },
         {
           "pitch": -12,
           "yaw": 157,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "SofaView"
         },
         {
           "pitch": -20,
           "yaw": 145,
           "type": "scene",
-          "text": "Move",
+          "text": "Move here",
           "sceneId": "Bedview"
         }
       ]
